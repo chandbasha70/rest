@@ -23,6 +23,7 @@ public class EmployeEntity {
 	private String empName;
 	
 	@Column(name="EMP_DOB")
+	
 	private Date empDOB;
 	@Column(name="EMP_DPT")
 	private String empDpt;
