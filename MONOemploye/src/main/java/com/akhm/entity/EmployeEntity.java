@@ -21,6 +21,7 @@ public class EmployeEntity {
 	private Long empId;
 	@Column(name="EMP_NAME")
 	private String empName;
+	
 	@Column(name="EMP_DOB")
 	private Date empDOB;
 	@Column(name="EMP_DPT")
